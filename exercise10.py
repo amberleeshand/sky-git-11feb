@@ -39,3 +39,5 @@ filepath = "/usr/local/bin/python3.9 /Users/ambershand/PycharmProjects/sky-git-1
 split_filepath = filepath.split('/')
 print(list(split_filepath)[-1])
 '''
+
+
