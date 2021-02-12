@@ -32,4 +32,10 @@ for file in glob.glob('*'):
 
 # TODO: Remove the leading directory name(s) from each filename
 #  before you print it -
-# using os.path.basename()
+print(os.path.basename('/usr/local/bin/python3.9 /Users/ambershand/PycharmProjects/sky-git-11feb/exercise10.py'))
+
+'''
+filepath = "/usr/local/bin/python3.9 /Users/ambershand/PycharmProjects/sky-git-11feb/exercise10.py"
+split_filepath = filepath.split('/')
+print(list(split_filepath)[-1])
+'''
