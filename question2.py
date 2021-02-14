@@ -1,5 +1,6 @@
+import getpass
 pin_number = 1234
-supplied_pin = int(input("Enter your pin: "))
+supplied_pin = int(getpass.getpass(prompt="Enter your pin: "))
 
 x = 0
 while x < 2:
@@ -7,5 +8,6 @@ while x < 2:
         print('You have access!')
         break
     else:
-        input("Enter your pin: ")
+        input(" Enter your pin: ")
     x += 1
+
